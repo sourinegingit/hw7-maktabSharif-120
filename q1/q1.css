@@ -1,0 +1,30 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(188, 215, 215);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font {
+  width: 80vw;
+  height: 40vh;
+  background-color: rgb(183, 244, 104);
+}
+.font p {
+  text-align: center;
+  margin: 1rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
